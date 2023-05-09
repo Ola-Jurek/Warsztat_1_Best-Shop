@@ -16,19 +16,68 @@
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
     --color-white: #FFFFFF;
-
 }
 
-.container {
-    width: 1352px;
-}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.logo-text {
-    font-family: sans-serif;
-    font-size: 50px;
+.container {
+    width: 1352px;
 }
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font: normal normal 300 32px/37px Raleway;
+    font-size: 32px;
+    color: var(--color-primary);
+    padding-top: 16px ;
+    padding-left: 136px;
+}
+
+.page-nav{
+    padding-right: 136px;
+    padding-top: 27px;
+
+
+}
+
+.page-nav-list {
+    display: flex;
+
+}
+
+.page-nav-list li:last-child {
+    margin-right: 136px;
+    padding-left: 50px;
+}
+
+.page-nav-list li:first-child {
+    padding-right: 50px;
+}
+
+.page-nav-list li:nth-child(2){
+    padding-right: 50px;
+}
+
+.page-nav-list li:nth-child(3){
+
+}
+
+li a {
+    font: normal normal bold 11px/15px Open Sans;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-grey);
+    alignment: center;
+    letter-spacing: 3.28px;
+}
+
+background-image: url("../assets/Background.png");
+
