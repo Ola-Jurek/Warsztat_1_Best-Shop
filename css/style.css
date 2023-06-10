@@ -367,7 +367,7 @@
     border: 1px solid #E8E9ED;
     background-color: #55DFB4;
     margin-top: -333px;
-    margin-left: 251px;
+    margin-left: 261px;
 }
 
 .benefits_img_trumpet {
@@ -376,6 +376,130 @@
     margin-left: 250px;
     margin-top: 113px;
     margin-right: 116px;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pricing_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1266px;
+    margin: 20px;
+}
+
+.pricing_title {
+    font-family: var(--fontR);
+    font-size: 36px;
+    color: var(--color-black);
+    padding: 20px 0;
+    margin: 0 20px 20px 0;
+}
+
+.pricing_boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 20px auto;
+}
+
+.pricing_basic_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    width: 350px;
+    height: 461px;
+    margin-right: 60px;
+}
+
+.pricing_professional_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
+    width: 372px;
+    height: 461px;
+    scale: 1.2;
+
+}
+
+.pricing_premium_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+    width: 372px;
+    height: 461px;
+    margin-left: 60px;
+
+}
+
+.pricing_box_title {
+    font-family: var(--fontR);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 34px;
+}
+
+.basic_box_price {
+    font-family: var(--fontO);
+    font-size: 46px;
+    font-weight: lighter;
+    color: #FB3B64;
+    padding: 14px 0;
+}
+
+.professional_box_price {
+    font-family: var(--fontO);
+    font-size: 46px;
+    font-weight: lighter;
+    color: #07ACE6;
+    padding: 14px 0;
+}
+
+.premium_box_price {
+    font-family: var(--fontO);
+    font-size: 46px;
+    font-weight: lighter;
+    color: #55DFB4;
+    padding: 14px 0;
+}
+
+.professional_box_description {
+    font-family: var(--fontR);
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+
+
+.box_text {
+    font-family: var(--fontO);
+    font-size: 14px;
+    padding: 15px 0;
+    position: relative;
+}
+
+.box_text:before {
+    display: inline-block;
+    content: "\2713";
+    width: 3px;
+    height: 3px;
+    margin: 5px 5px;
+    padding: 3px;
+    border: 1px solid #55DFB4;
+    background-color: transparent;
     position: relative;
     z-index: 1;
 }
