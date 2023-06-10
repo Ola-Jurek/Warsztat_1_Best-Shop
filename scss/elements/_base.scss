@@ -1,0 +1,8 @@
+@use '../settings/colors';
+@use '../settings/variables';
+
+body {
+  background-color: #e4e4e4;
+  color: colors.$text-color;
+  font-family: variables.$primary-font-family;
+}
