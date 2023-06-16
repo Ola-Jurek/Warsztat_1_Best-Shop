@@ -3,6 +3,7 @@
 
 body {
   background-color: #e4e4e4;
-  color: colors.$text-color;
+  color: colors.$color-primary;
   font-family: variables.$primary-font-family;
+  width: variables.$primary-width;
 }
